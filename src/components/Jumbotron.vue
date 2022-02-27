@@ -1,5 +1,5 @@
 <template>
-  <div class="jumbotron flex justify-between items-center bg-gray-100 p-24">
+  <div class="jumbotron flex justify-between items-center bg-gray-100 p-28">
     <div class="left">
       <h1 class="text-3xl mb-2">Hi there 👋</h1>
       <h2 class="text-5xl font-bold mb-4">My name is Kees</h2>
@@ -11,12 +11,14 @@
           'I write software.',
           'I make websites.',
           'I build scalable backends.',
+          'I love FOSS and Linux.',
+          'I like learning new things.',
         ]"
       />
       <ActionButton caption="Contact me" />
     </div>
     <div class="right">
-      <img class="w-52 mb-6 rounded-full" src="../assets/me.jpg" alt="Me" />
+      <img class="w-52 rounded-full" src="../assets/me.jpg" alt="Me" />
     </div>
   </div>
 </template>

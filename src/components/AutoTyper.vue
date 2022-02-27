@@ -1,7 +1,7 @@
 <template>
   <div class="autotyper font-mono">
     <span>{{ buf }}</span>
-    <span class="ml-1">&#9608;</span>
+    <span>&#9608;</span>
   </div>
 </template>
 
