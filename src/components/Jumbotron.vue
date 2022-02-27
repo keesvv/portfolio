@@ -15,7 +15,7 @@
           'I like learning new things.',
         ]"
       />
-      <ActionButton caption="Contact me" />
+      <ContactButton caption="Contact me" />
     </div>
     <div class="right">
       <img class="w-52 rounded-full" src="../assets/me.jpg" alt="Me" />
@@ -25,5 +25,5 @@
 
 <script lang="ts" setup>
 import AutoTyper from "./AutoTyper.vue";
-import ActionButton from "./ActionButton.vue";
+import ContactButton from "./ContactButton.vue";
 </script>
