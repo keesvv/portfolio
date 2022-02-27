@@ -8,7 +8,7 @@
       <!-- <h3>Feel free to <a href="mailto:contact@keesvv.nl">contact me</a>.</h3> -->
       <!-- <Socials /> -->
       <AutoTyper
-        class="text-md mb-6"
+        class="text-md mb-8"
         :strings="[
           'I write software.',
           'I make websites.',
