@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar flex items-center justify-between px-base py-7">
+  <nav class="navbar flex items-center justify-between px-8 sm:px-base py-7">
     <ul class="flex space-x-6">
       <li><a href="#">Home</a></li>
       <li><a href="#projects">Projects</a></li>
