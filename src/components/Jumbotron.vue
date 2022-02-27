@@ -1,5 +1,7 @@
 <template>
-  <div class="jumbotron flex justify-between items-center bg-gray-100 p-28">
+  <div
+    class="jumbotron flex justify-between items-center bg-gray-100 px-base py-32"
+  >
     <div class="left">
       <h1 class="text-3xl mb-2">Hi there 👋</h1>
       <h2 class="text-5xl font-bold mb-4">My name is Kees</h2>
