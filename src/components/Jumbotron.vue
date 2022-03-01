@@ -17,7 +17,7 @@
           'I like learning new things.',
         ]"
       />
-      <ContactButton caption="Contact me" />
+      <ContactButton cta caption="Contact me" />
     </div>
     <div class="right">
       <img
