@@ -44,7 +44,7 @@
     display: flex;
     margin: 0 auto;
     flex-direction: column;
-    max-width: 600px;
+    max-width: 660px;
     gap: 80px;
   }
 </style>
