@@ -9,14 +9,10 @@
 </a>
 
 <style lang="scss">
-  .fingerprint {
+  a {
     color: gray;
     display: inline-block;
     font-family: monospace;
-  }
-
-  a {
-    color: inherit;
     text-decoration: none;
   }
 
