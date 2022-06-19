@@ -1,1 +1,5 @@
-<h1>Hello, world!</h1>
+<script>
+  import Navbar from "./lib/Navbar.svelte";
+</script>
+
+<Navbar />
