@@ -1,6 +1,8 @@
 <script lang="ts">
   import type { Skill, Technology } from "./lib/types";
 
+  import ContactSection from "./lib/sections/ContactSection.svelte";
+
   import Lead from "./lib/Lead.svelte";
   import Navbar from "./lib/Navbar.svelte";
   import Stack from "./lib/Stack.svelte";
@@ -56,29 +58,38 @@
 
 <Navbar />
 <Lead />
-<section class="stack">
-  {#each stacks as stack, i}
-    <Stack techs={stack} />
+<div class="sections">
+  <section class="stack">
+    {#each stacks as stack, i}
+      <Stack techs={stack} />
 
-    {#if i < stacks.length - 1}
-      <div class="separator" />
-    {/if}
-  {/each}
-</section>
-<section class="skills">
-  <div class="skillCards">
-    {#each skills as skill}
-      <SkillCard {skill} />
+      {#if i < stacks.length - 1}
+        <div class="separator" />
+      {/if}
     {/each}
-  </div>
-</section>
+  </section>
+  <section class="skills">
+    <div class="skillCards">
+      {#each skills as skill}
+        <SkillCard {skill} />
+      {/each}
+    </div>
+  </section>
+  <ContactSection />
+</div>
 
 <style lang="scss">
+  .sections {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding: 50px 60px;
+  }
+
   section {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 50px 60px;
   }
 
   .stack .separator {
