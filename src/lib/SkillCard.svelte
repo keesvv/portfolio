@@ -11,7 +11,7 @@
         src={skill.icon}
         alt={skill.iconAlt}
         title={skill.iconAlt}
-        width="32"
+        width="35"
       />
     </div>
   </div>

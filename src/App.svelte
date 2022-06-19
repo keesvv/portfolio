@@ -13,6 +13,9 @@
   import vueImg from "./assets/technologies/vue.svg";
   import tailwindImg from "./assets/technologies/tailwind.svg";
 
+  import terminalImg from "./assets/icons/terminal.svg";
+  import codeImg from "./assets/icons/code.svg";
+
   const stacks: Technology[][] = [
     [
       { name: "Go", img: goImg, size: 100 },
@@ -35,7 +38,7 @@
         possible. I find operating systems and I/O to be very
         fascinating and wish to learn more about kernel
         development anytime soon.`,
-      icon: "",
+      icon: terminalImg,
       iconAlt: "Terminal icon",
     },
     {
@@ -45,7 +48,7 @@
         monolithic backends and microservices. I've built large-scale
         SPAs in the past and learned more about this topic
         each time.`,
-      icon: "",
+      icon: codeImg,
       iconAlt: "Code icon",
     },
   ];
