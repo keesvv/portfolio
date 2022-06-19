@@ -3,3 +3,10 @@ export type Technology = {
   img: string;
   size?: number;
 };
+
+export type Skill = {
+  caption: string;
+  description: string;
+  icon: string;
+  iconAlt: string;
+};
