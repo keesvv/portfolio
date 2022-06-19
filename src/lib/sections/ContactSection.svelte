@@ -21,8 +21,12 @@
 
   a {
     display: inline-block;
-    padding: 10px;
-    margin-top: 10px;
+    margin: 25px 0;
+    padding: 12px 32px;
+    color: white;
+    background: #218ce4;
+    border-radius: 8px;
+    text-decoration: none;
   }
 
   .fingerprint {
