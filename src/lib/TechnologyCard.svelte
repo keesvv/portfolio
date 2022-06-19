@@ -1,11 +1,16 @@
 <script lang="ts">
-  export let name: string;
-  export let img: string;
-  export let imgWidth = 64;
+  import type { Technology } from "./types";
+
+  export let tech: Technology;
 </script>
 
 <div class="technologyCard">
-  <img src={img} title={name} alt={name} width={imgWidth} />
+  <img
+    src={tech.img}
+    title={tech.name}
+    alt={tech.name}
+    width={tech.size || 64}
+  />
 </div>
 
 <style lang="scss">

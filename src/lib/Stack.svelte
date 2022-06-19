@@ -1,12 +1,13 @@
 <script lang="ts">
   import TechnologyCard from "./TechnologyCard.svelte";
+  import type { Technology } from "./types";
 
-  export let technologies: [string, string, number?][];
+  export let techs: Technology[];
 </script>
 
 <div class="stack">
-  {#each technologies as [name, img, imgWidth]}
-    <TechnologyCard {name} {img} {imgWidth} />
+  {#each techs as tech}
+    <TechnologyCard {tech} />
   {/each}
 </div>
 

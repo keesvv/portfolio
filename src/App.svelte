@@ -15,18 +15,18 @@
 <Lead />
 <section class="stack">
   <Stack
-    technologies={[
-      ["Go", goImg, 100],
-      ["Rust", rustImg, 80],
+    techs={[
+      { name: "Go", img: goImg, size: 100 },
+      { name: "Rust", img: rustImg, size: 80 },
     ]}
   />
   <div class="separator" />
   <Stack
-    technologies={[
-      ["TypeScript", tsImg],
-      ["Svelte", svelteImg],
-      ["Vue", vueImg],
-      ["Tailwind", tailwindImg],
+    techs={[
+      { name: "TypeScript", img: tsImg },
+      { name: "Svelte", img: svelteImg },
+      { name: "Vue", img: vueImg },
+      { name: "Tailwind", img: tailwindImg },
     ]}
   />
 </section>
