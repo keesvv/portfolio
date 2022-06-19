@@ -7,12 +7,7 @@
 <div class="skillCard">
   <div class="left">
     <div class="icon">
-      <img
-        src={skill.icon}
-        alt={skill.iconAlt}
-        title={skill.iconAlt}
-        width="35"
-      />
+      <img src={skill.icon} alt={skill.iconAlt} width="35" />
     </div>
   </div>
   <div class="right">

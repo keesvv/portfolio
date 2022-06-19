@@ -4,6 +4,7 @@
 
   import StackSection from "./lib/sections/StackSection.svelte";
   import SkillsSection from "./lib/sections/SkillsSection.svelte";
+  import ProjectsSection from "./lib/sections/ProjectsSection.svelte";
   import ContactSection from "./lib/sections/ContactSection.svelte";
 </script>
 
@@ -12,6 +13,7 @@
 <div class="sections">
   <StackSection />
   <SkillsSection />
+  <ProjectsSection />
   <ContactSection />
 </div>
 
