@@ -1,7 +1,7 @@
 <script lang="ts">
   import type { Technology } from "../types";
 
-  import Stack from "../Stack.svelte";
+  import TechnologyCard from "../TechnologyCard.svelte";
 
   import goImg from "../../assets/technologies/go.svg";
   import rustImg from "../../assets/technologies/rust.svg";
@@ -26,7 +26,11 @@
 
 <section class="stack">
   {#each stacks as stack, i}
-    <Stack techs={stack} />
+    <div class="stackItems">
+      {#each stack as tech}
+        <TechnologyCard {tech} />
+      {/each}
+    </div>
 
     {#if i < stacks.length - 1}
       <div class="separator" />
@@ -39,6 +43,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .stackItems {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
   }
 
   .separator {
