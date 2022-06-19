@@ -1,8 +1,11 @@
 # portfolio
-My brand new portfolio site, written in Vue.
+
+My brand new portfolio website, written in Svelte.
 
 ## Author
+
 Kees van Voorthuizen
 
 ## License
+
 [MIT](./LICENSE)
