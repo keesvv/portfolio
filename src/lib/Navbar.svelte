@@ -10,7 +10,7 @@
 
 <style lang="scss">
   .navbar {
-    padding: 30px;
+    padding: 45px 50px;
     display: flex;
     justify-content: space-between;
   }
