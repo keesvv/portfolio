@@ -19,20 +19,6 @@
     text-align: center;
   }
 
-  h1,
-  h2 {
-    margin: 0;
-  }
-
-  h1 {
-    font-size: 1.8em;
-  }
-
-  h2 {
-    font-size: 1.3em;
-    font-weight: normal;
-  }
-
   a {
     display: inline-block;
     padding: 10px;
