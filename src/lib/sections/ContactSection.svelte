@@ -28,8 +28,4 @@
     border-radius: 8px;
     text-decoration: none;
   }
-
-  .fingerprint {
-    font-size: 1.1em;
-  }
 </style>

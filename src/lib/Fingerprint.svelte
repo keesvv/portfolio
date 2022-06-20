@@ -5,18 +5,22 @@
 
 <a href={pubkeyUri} class="fingerprint">
   <span>PGP fingerprint</span>
-  <span>{fprint}</span>
+  <span class="fprint">{fprint}</span>
 </a>
 
 <style lang="scss">
   a {
     color: gray;
     display: inline-block;
-    font-family: "Fira Mono", monospace;
     text-decoration: none;
   }
 
   span {
     display: block;
+  }
+
+  .fprint {
+    font-family: "Fira Mono", monospace;
+    font-size: 0.8em;
   }
 </style>
