@@ -12,7 +12,7 @@
   a {
     color: gray;
     display: inline-block;
-    font-family: monospace;
+    font-family: "Fira Mono", monospace;
     text-decoration: none;
   }
 

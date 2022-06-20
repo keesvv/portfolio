@@ -8,7 +8,10 @@ export default defineConfig({
     svelte(),
     fonts({
       custom: {
-        families: { Inter: "./src/assets/fonts/Inter-*" },
+        families: {
+          Inter: "./src/assets/fonts/Inter-*",
+          "Fira Mono": "./src/assets/fonts/FiraMono-*",
+        },
       },
     }),
   ],
