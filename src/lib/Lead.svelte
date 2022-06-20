@@ -1,10 +1,16 @@
 <script lang="ts">
   import me from "../assets/me.jpg";
+  import TerminalInput from "./terminal/TerminalInput.svelte";
+  import TerminalTyper from "./terminal/TerminalTyper.svelte";
 </script>
 
 <div class="lead">
   <div class="left">
-    <h1>Hi there!</h1>
+    <h1>
+      <TerminalInput>
+        <TerminalTyper input="Hi there!" />
+      </TerminalInput>
+    </h1>
     <h2>My name is Kees.</h2>
   </div>
   <div class="right">
@@ -19,11 +25,6 @@
     align-items: center;
     background-color: #f5f5f5;
     padding: 160px 60px;
-  }
-
-  h1,
-  h2 {
-    margin: 0;
   }
 
   h1 {
