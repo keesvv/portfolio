@@ -21,6 +21,12 @@
     display: flex;
     align-items: center;
     gap: 50px;
+
+    @media (max-width: 768px) {
+      gap: 20px;
+      flex-direction: column;
+      text-align: center;
+    }
   }
 
   .icon {

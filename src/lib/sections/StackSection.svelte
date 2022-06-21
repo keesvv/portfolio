@@ -43,6 +43,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 10px;
   }
 
   .stackItems {
@@ -51,9 +52,20 @@
     gap: 10px;
   }
 
+  .stack,
+  .stackItems {
+    @media (max-width: 768px) {
+      flex-wrap: wrap;
+    }
+  }
+
   .separator {
-    margin: 0 20px;
+    margin: 0 10px;
     height: 60px;
     border: 1px solid #e4e4e4;
+
+    @media (max-width: 768px) {
+      display: none;
+    }
   }
 </style>

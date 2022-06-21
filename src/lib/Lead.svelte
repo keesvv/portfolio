@@ -22,18 +22,33 @@
   .lead {
     display: flex;
     justify-content: space-between;
+    gap: 30px;
     align-items: center;
     background-color: #f5f5f5;
     padding: 160px 60px;
+
+    @media (max-width: 768px) {
+      padding: 80px 60px;
+      text-align: center;
+      flex-direction: column-reverse;
+    }
   }
 
   h1 {
     font-size: 3.5em;
+
+    @media (max-width: 768px) {
+      font-size: 2.8em;
+    }
   }
 
   h2 {
     font-size: 2em;
     font-weight: normal;
+
+    @media (max-width: 768px) {
+      font-size: 1.3em;
+    }
   }
 
   img {

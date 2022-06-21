@@ -1,6 +1,6 @@
 body {
-    font-family: Inter, sans-serif;
-    margin: 0;
+  font-family: Inter, sans-serif;
+  margin: 0;
 }
 
 h1,
@@ -10,9 +10,17 @@ h2 {
 
 h1 {
   font-size: 1.8em;
+
+  @media (max-width: 768px) {
+    font-size: 1.6em;
+  }
 }
 
 h2 {
   font-size: 1.3em;
   font-weight: normal;
+
+  @media (max-width: 768px) {
+    font-size: 1.1em;
+  }
 }

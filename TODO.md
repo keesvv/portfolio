@@ -1,5 +1,6 @@
 # TODO
 
 - Dark theme
-- Responsive layout
 - OpenGraph tags
+- Projects
+- TerminalCursor: blink on idle

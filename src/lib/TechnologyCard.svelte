@@ -22,5 +22,10 @@
     height: 120px;
     background-color: #f5f5f5;
     border-radius: 10px;
+
+    @media (max-width: 768px) {
+      width: 100px;
+      height: 100px;
+    }
   }
 </style>

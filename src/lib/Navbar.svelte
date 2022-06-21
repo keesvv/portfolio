@@ -9,15 +9,18 @@
 </nav>
 
 <style lang="scss">
+  .navbar,
+  ul {
+    display: flex;
+    gap: 20px;
+  }
+
   .navbar {
     padding: 45px 50px;
-    display: flex;
     justify-content: space-between;
   }
 
   ul {
-    display: flex;
-    gap: 20px;
     list-style: none;
     padding: 0;
     margin: 0;
