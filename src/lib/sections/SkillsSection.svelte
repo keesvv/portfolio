@@ -15,8 +15,7 @@
         possible. I find operating systems and I/O to be very
         fascinating and wish to learn more about kernel
         development anytime soon.`,
-      icon: terminalImg,
-      iconAlt: "Terminal icon",
+      icon: [terminalImg, "Terminal icon"],
     },
     {
       caption: "I build full stack apps.",
@@ -25,8 +24,7 @@
         monolithic backends and microservices. I've built large-scale
         SPAs in the past and learned more about this topic
         each time.`,
-      icon: codeImg,
-      iconAlt: "Code icon",
+      icon: [codeImg, "Code icon"],
     },
   ];
 </script>
