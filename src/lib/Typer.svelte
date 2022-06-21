@@ -15,10 +15,10 @@
   onMount(() => typeString(input));
 </script>
 
-<span class="terminalTyper">{buf}</span>
+<span class="typer">{buf}</span>
 
 <style lang="scss">
-  .terminalTyper {
+  .typer {
     white-space: pre;
   }
 </style>
