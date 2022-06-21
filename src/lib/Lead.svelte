@@ -24,7 +24,7 @@
     justify-content: space-between;
     gap: 30px;
     align-items: center;
-    background-color: #f5f5f5;
+    background-color: var(--color-bg-secondary);
     padding: 160px 60px;
 
     @media (max-width: 768px) {

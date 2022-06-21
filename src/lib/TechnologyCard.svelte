@@ -20,7 +20,7 @@
     justify-content: center;
     width: 120px;
     height: 120px;
-    background-color: #f5f5f5;
+    background-color: var(--color-bg-secondary);
     border-radius: 10px;
 
     @media (max-width: 768px) {

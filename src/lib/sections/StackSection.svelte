@@ -62,7 +62,7 @@
   .separator {
     margin: 0 10px;
     height: 60px;
-    border: 1px solid #e4e4e4;
+    border: 1px solid var(--color-bg-secondary);
 
     @media (max-width: 768px) {
       display: none;
