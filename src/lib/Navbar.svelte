@@ -1,10 +1,10 @@
 <nav class="navbar">
   <ul class="left">
-    <li><a href="#">Home</a></li>
-    <li><a href="#">Projects</a></li>
+    <li><a href="#/">Home</a></li>
+    <li><a href="#projects">Projects</a></li>
   </ul>
   <ul class="right">
-    <li><a href="#">Contact</a></li>
+    <li><a href="#contact">Contact</a></li>
   </ul>
 </nav>
 

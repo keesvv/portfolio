@@ -29,7 +29,7 @@
   ];
 </script>
 
-<section class="skills">
+<section id="skills">
   <div class="skillCards">
     {#each skills as skill}
       <SkillCard {skill} />

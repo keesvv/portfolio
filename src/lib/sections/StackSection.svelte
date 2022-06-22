@@ -24,7 +24,7 @@
   ];
 </script>
 
-<section class="stack">
+<section id="stack">
   {#each stacks as stack, i}
     <div class="stackItems">
       {#each stack as tech}
@@ -39,7 +39,7 @@
 </section>
 
 <style lang="scss">
-  .stack {
+  #stack {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -52,7 +52,7 @@
     gap: 10px;
   }
 
-  .stack,
+  #stack,
   .stackItems {
     @media (max-width: 768px) {
       flex-wrap: wrap;

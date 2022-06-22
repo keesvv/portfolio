@@ -2,7 +2,7 @@
   import Fingerprint from "../Fingerprint.svelte";
 </script>
 
-<section class="contact">
+<section id="contact">
   <h1>Interested?</h1>
   <h2>Shoot me an email.</h2>
   <a href="mailto:contactme@keesvv.nl">Contact me</a>
@@ -15,7 +15,7 @@
 </section>
 
 <style lang="scss">
-  .contact {
+  #contact {
     text-align: center;
   }
 
