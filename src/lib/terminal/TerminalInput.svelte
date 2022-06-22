@@ -9,7 +9,7 @@
 
 <span class="terminalInput">
   <slot />
-  <TerminalCursor />
+  <TerminalCursor blink={!$typing} />
 </span>
 
 <style lang="scss">
