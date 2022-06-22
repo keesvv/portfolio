@@ -37,5 +37,9 @@
     height: 80px;
     background-color: #b4ddff;
     border-radius: 100%;
+
+    @media (prefers-color-scheme: dark) {
+      background-color: #71bfff;
+    }
   }
 </style>

@@ -13,6 +13,10 @@
     color: gray;
     display: inline-block;
     text-decoration: none;
+
+    @media (prefers-color-scheme: dark) {
+      color: #9b9b9b;
+    }
   }
 
   span {

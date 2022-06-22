@@ -16,5 +16,9 @@
   img {
     margin-top: 15px;
     width: 24px;
+
+    @media (prefers-color-scheme: dark) {
+      filter: invert(100%);
+    }
   }
 </style>
