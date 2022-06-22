@@ -1,14 +1,18 @@
 <script lang="ts">
+  import { initializeTC } from "./types";
   import me from "../assets/me.jpg";
   import Typer from "./Typer.svelte";
   import TerminalInput from "./terminal/TerminalInput.svelte";
+
+  const ctx = Symbol();
+  initializeTC(ctx);
 </script>
 
 <div class="lead">
   <div class="left">
     <h1>
-      <TerminalInput>
-        <Typer input="Hi there!" />
+      <TerminalInput {ctx}>
+        <Typer {ctx} input="Hi there!" />
       </TerminalInput>
     </h1>
     <h2>My name is Kees.</h2>

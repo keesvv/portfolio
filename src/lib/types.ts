@@ -1,3 +1,6 @@
+import { setContext } from "svelte";
+import { writable, Writable } from "svelte/store";
+
 export type SrcAlt = [string, string];
 
 export type Technology = {
@@ -11,3 +14,9 @@ export type Skill = {
   description: string;
   icon: SrcAlt;
 };
+
+export type TypingContext = Writable<boolean>;
+
+export function initializeTC(ctx: symbol): void {
+  setContext<TypingContext>(ctx, writable(false));
+}
