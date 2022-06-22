@@ -23,11 +23,20 @@
     display: flex;
     align-items: center;
     gap: 20px;
+
+    @media (max-width: 768px) {
+      gap: 10px;
+    }
   }
 
   .navbar {
     padding: 45px 50px;
     justify-content: space-between;
+
+    @media (max-width: 768px) {
+      padding: 30px 25px;
+      justify-content: initial;
+    }
   }
 
   ul {
