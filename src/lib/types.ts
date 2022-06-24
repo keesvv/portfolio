@@ -15,6 +15,14 @@ export type Skill = {
   icon: SrcAlt;
 };
 
+export type Project = {
+  name: string;
+  description: string;
+  url: string;
+  technologies: Technology[];
+  logo?: SrcAlt;
+};
+
 export type TypingContext = Writable<boolean>;
 
 export function initializeTC(ctx: symbol): void {
