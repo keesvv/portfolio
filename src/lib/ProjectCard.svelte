@@ -30,7 +30,7 @@
           <img
             src={technology.img}
             alt={technology.name}
-            width="24"
+            width={technology.size ?? 24}
           />
         </div>
       {/each}
@@ -72,7 +72,9 @@
     gap: 5px;
 
     .technology {
-      margin: auto 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
   }
 
