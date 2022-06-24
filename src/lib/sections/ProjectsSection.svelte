@@ -22,8 +22,9 @@
     {
       name: "Bolt",
       description: `
-        A fast, lightweight, and secure chat protocol, client
-        and server, written in Go.`,
+        As one of my first Go projects, Bolt is a chat protocol
+        with client and server reference implementations. It has
+        support for PGP signing.`,
       url: "https://github.com/boltchat",
       technologies: [{ ...Go, size: 35 }],
       logo: [boltImg, "Bolt"],
