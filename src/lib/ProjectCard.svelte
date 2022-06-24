@@ -5,7 +5,12 @@
   export let project: Project;
 </script>
 
-<a target="_blank" href={project.url} class="projectCard">
+<a
+  rel="noopener noreferrer"
+  target="_blank"
+  href={project.url}
+  class="projectCard"
+>
   <div class="topSection">
     {#if project.logo}
       <div class="left">

@@ -61,6 +61,7 @@
   </div>
   <div class="links">
     <a
+      rel="noopener noreferrer"
       target="_blank"
       href="https://github.com/keesvv?tab=repositories"
     >
