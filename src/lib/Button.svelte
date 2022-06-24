@@ -9,7 +9,7 @@
 <style lang="scss">
   .button {
     padding: 12px 32px;
-    color: var(--color-fg);
+    color: white;
     background: #218ce4;
     font-weight: bold;
     border-radius: 8px;

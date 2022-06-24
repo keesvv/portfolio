@@ -7,8 +7,8 @@
 
 <a href={project.url} class="projectCard">
   <div class="topSection">
-    <div class="left">
-      {#if project.logo}
+    {#if project.logo}
+      <div class="left">
         <div class="logoContainer">
           <img
             class="logo"
@@ -16,8 +16,8 @@
             alt={project.logo[1]}
           />
         </div>
-      {/if}
-    </div>
+      </div>
+    {/if}
     <div class="right">
       <h1>{project.name}</h1>
       <h2>{project.description}</h2>
