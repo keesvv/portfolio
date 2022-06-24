@@ -48,6 +48,7 @@
   .projects {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 10px;
     text-align: initial;
     margin-top: 20px;

@@ -1,0 +1,22 @@
+<script lang="ts">
+  export let disabled = false;
+</script>
+
+<div class="button" class:disabled>
+  <slot />
+</div>
+
+<style lang="scss">
+  .button {
+    padding: 12px 32px;
+    color: var(--color-fg);
+    background: #218ce4;
+    font-weight: bold;
+    border-radius: 8px;
+
+    &.disabled {
+      background: #969696;
+      color: var(--color-bg);
+    }
+  }
+</style>
