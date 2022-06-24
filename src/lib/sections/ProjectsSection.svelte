@@ -60,7 +60,10 @@
     {/each}
   </div>
   <div class="links">
-    <a href="https://github.com/keesvv?tab=repositories">
+    <a
+      target="_blank"
+      href="https://github.com/keesvv?tab=repositories"
+    >
       <Button>View more on GitHub</Button>
     </a>
     <Button disabled>Archive browser (WIP)</Button>
