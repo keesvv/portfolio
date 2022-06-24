@@ -70,6 +70,10 @@
 
   .technologies {
     gap: 5px;
+
+    .technology {
+      margin: auto 0;
+    }
   }
 
   .logoContainer {
@@ -93,5 +97,6 @@
 
   h2 {
     font-size: 0.9em;
+    line-height: 1.3em;
   }
 </style>
