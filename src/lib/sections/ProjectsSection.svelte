@@ -1,9 +1,10 @@
 <script lang="ts">
   import type { Project } from "../types";
-  import { NestJS, TypeScript, Vue } from "../technologies";
+  import { Go, NestJS, TypeScript, Vue } from "../technologies";
   import ProjectCard from "../ProjectCard.svelte";
 
   import tribecampImg from "../../assets/projects/tribecamp.svg";
+  import boltImg from "../../assets/projects/bolt.svg";
 
   const projects: Project[] = [
     {
@@ -16,6 +17,15 @@
       url: "https://github.com/tribecamp",
       technologies: [TypeScript, NestJS, Vue],
       logo: [tribecampImg, "Tribecamp"],
+    },
+    {
+      name: "Bolt",
+      description: `
+        A fast, lightweight, and secure chat protocol, client
+        and server, written in Go.`,
+      url: "https://github.com/boltchat",
+      technologies: [{ ...Go, size: 35 }],
+      logo: [boltImg, "Bolt"],
     },
   ];
 </script>
@@ -38,6 +48,7 @@
   .projects {
     display: flex;
     justify-content: center;
+    gap: 10px;
     text-align: initial;
     margin-top: 20px;
   }
