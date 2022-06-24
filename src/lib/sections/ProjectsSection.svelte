@@ -1,11 +1,13 @@
 <script lang="ts">
-  import type { Project } from "../types";
+  import type { Project, Technology } from "../types";
   import { Go, NestJS, TypeScript, Vue } from "../technologies";
   import ProjectCard from "../ProjectCard.svelte";
   import Button from "../Button.svelte";
 
   import tribecampImg from "../../assets/projects/tribecamp.svg";
   import boltImg from "../../assets/projects/bolt.svg";
+
+  const GoResized: Technology = { ...Go, size: 35 };
 
   const projects: Project[] = [
     {
@@ -26,8 +28,25 @@
         with client and server reference implementations. It has
         support for PGP signing.`,
       url: "https://github.com/boltchat",
-      technologies: [{ ...Go, size: 35 }],
+      technologies: [GoResized],
       logo: [boltImg, "Bolt"],
+    },
+    {
+      name: "webnix",
+      description: `
+        My attempt at mimicking the behaviour of *nix-like
+        operating systems in the browser. It (partially) embodies
+        I/O, filesystems, user management and a couple of programs.`,
+      url: "https://github.com/keesvv/webnix",
+      technologies: [TypeScript],
+    },
+    {
+      name: "svm",
+      description: `
+        A much needed service manager CLI for the runit service management
+        scheme.`,
+      url: "https://github.com/keesvv/svm",
+      technologies: [GoResized],
     },
   ];
 </script>
@@ -54,12 +73,14 @@
   }
 
   .projects {
+    max-width: 1000px;
+    margin: 20px auto 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 10px;
     text-align: initial;
-    margin-top: 20px;
 
     @media (max-width: 768px) {
       flex-direction: column;
