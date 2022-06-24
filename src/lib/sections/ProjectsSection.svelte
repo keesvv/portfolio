@@ -1,10 +1,7 @@
 <script lang="ts">
   import type { Project } from "../types";
+  import { NestJS, TypeScript, Vue } from "../technologies";
   import ProjectCard from "../ProjectCard.svelte";
-
-  import tsImg from "../../assets/technologies/typescript.svg";
-  import nestImg from "../../assets/technologies/nestjs.svg";
-  import vueImg from "../../assets/technologies/vue.svg";
 
   import tribecampImg from "../../assets/projects/tribecamp.svg";
 
@@ -17,11 +14,7 @@
         became a Dutch LVS (student tracking system) and
         my greatest project yet.`,
       url: "https://github.com/tribecamp",
-      technologies: [
-        { name: "TypeScript", img: tsImg },
-        { name: "NestJS", img: nestImg },
-        { name: "Vue", img: vueImg },
-      ],
+      technologies: [TypeScript, NestJS, Vue],
       logo: [tribecampImg, "Tribecamp"],
     },
   ];

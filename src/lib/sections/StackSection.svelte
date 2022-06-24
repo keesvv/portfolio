@@ -1,26 +1,21 @@
 <script lang="ts">
   import type { Technology } from "../types";
-
+  import {
+    Go,
+    Rust,
+    Svelte,
+    Tailwind,
+    TypeScript,
+    Vue,
+  } from "../technologies";
   import TechnologyCard from "../TechnologyCard.svelte";
-
-  import goImg from "../../assets/technologies/go.svg";
-  import rustImg from "../../assets/technologies/rust.svg";
-  import tsImg from "../../assets/technologies/typescript.svg";
-  import svelteImg from "../../assets/technologies/svelte.svg";
-  import vueImg from "../../assets/technologies/vue.svg";
-  import tailwindImg from "../../assets/technologies/tailwind.svg";
 
   const stacks: Technology[][] = [
     [
-      { name: "Go", img: goImg, size: 100 },
-      { name: "Rust", img: rustImg, size: 80 },
+      { ...Go, size: 100 },
+      { ...Rust, size: 80 },
     ],
-    [
-      { name: "TypeScript", img: tsImg },
-      { name: "Svelte", img: svelteImg },
-      { name: "Vue", img: vueImg },
-      { name: "Tailwind", img: tailwindImg },
-    ],
+    [TypeScript, Svelte, Vue, Tailwind],
   ];
 </script>
 
