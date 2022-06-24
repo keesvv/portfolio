@@ -51,5 +51,9 @@
     gap: 10px;
     text-align: initial;
     margin-top: 20px;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
   }
 </style>

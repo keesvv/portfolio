@@ -35,7 +35,7 @@
         </div>
       {/each}
     </div>
-    <img src={arrowRightImg} alt="Arrow right" />
+    <img class="arrow" src={arrowRightImg} alt="Arrow right" />
   </div>
 </a>
 
@@ -52,8 +52,9 @@
     text-decoration: none;
     flex-direction: column;
     justify-content: space-between;
-    height: 150px;
-    width: 400px;
+    gap: 15px;
+    min-height: 150px;
+    max-width: 400px;
     padding: 20px;
     background-color: var(--color-bg-secondary);
     border-radius: 10px;
@@ -95,10 +96,20 @@
 
   h1 {
     font-size: 1.3em;
+
+    @media (max-width: 768px) {
+      font-size: 1.1em;
+    }
   }
 
   h2 {
     font-size: 0.9em;
     line-height: 1.3em;
+  }
+
+  .arrow {
+    @media (prefers-color-scheme: dark) {
+      filter: invert(100%);
+    }
   }
 </style>
