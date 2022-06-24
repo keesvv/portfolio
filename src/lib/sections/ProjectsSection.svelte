@@ -2,6 +2,7 @@
   import type { Project } from "../types";
   import { Go, NestJS, TypeScript, Vue } from "../technologies";
   import ProjectCard from "../ProjectCard.svelte";
+  import Button from "../Button.svelte";
 
   import tribecampImg from "../../assets/projects/tribecamp.svg";
   import boltImg from "../../assets/projects/bolt.svg";
@@ -38,6 +39,12 @@
       <ProjectCard {project} />
     {/each}
   </div>
+  <div class="links">
+    <a href="https://github.com/keesvv?tab=repositories">
+      <Button>View more on GitHub</Button>
+    </a>
+    <Button disabled>Archive browser (WIP)</Button>
+  </div>
 </section>
 
 <style lang="scss">
@@ -55,6 +62,18 @@
 
     @media (max-width: 768px) {
       flex-direction: column;
+    }
+  }
+
+  .links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+
+    a {
+      text-decoration: none;
     }
   }
 </style>

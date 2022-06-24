@@ -83,7 +83,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--color-bg);
+    background-color: white;
     border-radius: 100%;
     width: 60px;
     height: 60px;
