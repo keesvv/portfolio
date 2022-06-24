@@ -18,5 +18,10 @@
       background: #969696;
       color: var(--color-bg);
     }
+
+    @media (max-width: 768px) {
+      font-size: 0.9em;
+      padding: 12px 24px;
+    }
   }
 </style>
