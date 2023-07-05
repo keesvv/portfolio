@@ -67,7 +67,6 @@
     >
       <Button>View more on GitHub</Button>
     </a>
-    <Button disabled>Archive browser (WIP)</Button>
   </div>
 </section>
 
