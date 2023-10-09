@@ -1,6 +1,6 @@
 <script lang="ts">
   import type { Project, Technology } from "../types";
-  import { Go, NestJS, TypeScript, Vue } from "../technologies";
+  import { Go, NestJS, Rust, TypeScript, Vue } from "../technologies";
   import ProjectCard from "../ProjectCard.svelte";
   import Button from "../Button.svelte";
 
@@ -32,6 +32,14 @@
       logo: [boltImg, "Bolt"],
     },
     {
+      name: "kash",
+      description: `
+        An extensible and flexible personal finance management
+        library, CLI and REST implementation.`,
+      url: "https://github.com/keesvv/kash",
+      technologies: [Rust],
+    },
+    {
       name: "webnix",
       description: `
         My attempt at mimicking the behaviour of *nix-like
@@ -39,14 +47,6 @@
         I/O, filesystems, user management and a couple of programs.`,
       url: "https://github.com/keesvv/webnix",
       technologies: [TypeScript],
-    },
-    {
-      name: "svm",
-      description: `
-        A much needed service manager CLI for the runit service management
-        scheme.`,
-      url: "https://github.com/keesvv/svm",
-      technologies: [GoResized],
     },
   ];
 </script>
