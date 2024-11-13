@@ -1,21 +1,22 @@
 <script lang="ts">
   import type { Technology } from "../types";
   import {
-    Go,
     Rust,
+    Go,
+    Python,
     Svelte,
     Tailwind,
     TypeScript,
-    Vue,
   } from "../technologies";
   import TechnologyCard from "../TechnologyCard.svelte";
 
   const stacks: Technology[][] = [
     [
-      { ...Go, size: 100 },
       { ...Rust, size: 80 },
+      { ...Go, size: 100 },
+      { ...Python, size: 80 },
     ],
-    [TypeScript, Svelte, Vue, Tailwind],
+    [TypeScript, Svelte, Tailwind],
   ];
 </script>
 
